@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "REST API services",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanthi1999/Task-Management.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "GraphQL",
+    "MongoDB",
+    "Jest",
+    "ESLint"
+  ],
+  "author": "Shanthi B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanthi1999/Task-Management/issues"
+  },
+  "homepage": "https://github.com/shanthi1999/Task-Management#readme",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@types/bcrypt": "^5.0.2",
+    "eslint": "^9.2.0",
+    "globals": "^15.2.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^7.8.0"
+  }
+}
